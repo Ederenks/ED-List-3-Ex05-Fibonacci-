@@ -1,13 +1,12 @@
 package Controller;
 
 public class OperacoesController {
-	public int Fib(int x, int i) {
+	public int Fib(int x) {
 		//Condicao de parada
-		if (i==x) {
+		if (x==0 || x ==1) {
 			return x;
 		}else {
-			
-			return Fib(x+)
+			return Fib(x-1) + Fib(x-2);
 		}
 	}
 }

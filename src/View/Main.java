@@ -9,6 +9,7 @@ public class Main {
 	if (x>20) {
 		 x = Integer.parseInt(JOptionPane.showInputDialog("Digite um termo menor que 20!"));
 		}
-	op.Fib(x);
+	System.out.println(op.Fib(x) );
+	
 	}
 }
